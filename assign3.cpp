@@ -7,7 +7,7 @@
  *        speed after 1 minute (in km/h)
  * Output: rate of deceleration (in m/s^2)
  *         estimated coasting time (in minutes and seconds)
- *         distance travelled in that time (in meters)
+ *         distance travelted in that time (in meters)
  * 
  * Author: Emily Guo - 301670039
 ******************************************************************/
@@ -169,7 +169,7 @@ double totalDistance(double initialSpeed, double deceleration){
 }
 
 /******************************************************************
- * outResults -- outputs the final results
+ * outResults-- outputs the final results
  * 
  * Parameters: finalDeceleration -- final deceleration rate
  *             minutes -- total coasting time in minutes
